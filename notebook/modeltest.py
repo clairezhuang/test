@@ -1,4 +1,6 @@
 # Databricks notebook source
+pip install tensorflow==2.8.0
+
 from tensorflow.keras.models import Model, save_model
 import tensorflow as tf
 import datetime
