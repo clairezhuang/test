@@ -1,5 +1,7 @@
 # Databricks notebook source
-%fs ls
+# MAGIC %fs ls
+
+# COMMAND ----------
 
 from tensorflow.keras.models import Model, save_model
 import tensorflow as tf
