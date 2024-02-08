@@ -1,4 +1,6 @@
 # Databricks notebook source
+%fs ls
+
 from tensorflow.keras.models import Model, save_model
 import tensorflow as tf
 import datetime
